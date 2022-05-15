@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/** {
+  border: 2px solid red;
+}*/
+
 html, body {
   height: 100%;
 }
@@ -15,11 +19,23 @@ body {
   justify-content: center;
 }
 
+.header-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: larger;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 15px;
 }
 
 .icon {
@@ -33,6 +49,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 1 0 auto;
 }
 
 .close-button {
@@ -46,6 +63,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text {
+  margin: 15px 0;
 }
 
 button {
